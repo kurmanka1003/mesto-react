@@ -38,5 +38,3 @@ git clone https://github.com/kurmanka1003/mesto-react.git
 npm install
 npm start
 ```
-
-
