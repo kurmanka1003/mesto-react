@@ -32,14 +32,14 @@ function Main({
           <div className="profile__info">
             <div className="profile__details">
               <h1 className="profile__name">{currentUser.name}</h1>
-              <button
-                onClick={onEditProfile}
-                className="profile__edit-button"
-                type="button"
-                aria-label="Редактировать профиль"
-              ></button>
+              <p className="profile__job">{currentUser.about}</p>
             </div>
-            <p className="profile__job">{currentUser.about}</p>
+            <button
+              onClick={onEditProfile}
+              className="profile__edit-button"
+              type="button"
+              aria-label="Редактировать профиль"
+            ></button>
           </div>
         </div>
         <button
